@@ -6,9 +6,6 @@ This project is a derivative of [festivities/Blender-miHoYo-Shaders](https://git
 
 ---
 
-
----
-
 ## Background
 
 The festivities shader set is one of the most widely used references for anime-style game rendering in Blender. It was designed specifically around Genshin Impact's texture layout and material properties.
@@ -17,14 +14,16 @@ Umamusume uses a different shading pipeline. Its toon shadow, MatCap, and textur
 
 ## What I used from Original Festivities shader
 
--Light Vector to control lighting direction
--GenshinImpact Outlines
--Lighting Panel and Custom Lighting for Ambient, Lit Shadow Color, Unlit Shadow Color, Rim Color, and Fresnel Lighting.
-
+- Light Vector to control lighting direction
+- Genshin Impact Outlines
+- Lighting Panel and Custom Lighting for Ambient, Lit Shadow Color, Unlit Shadow Color, Rim Color, and Fresnel Lighting.
+- Post-Processing Compositing
+  
 ## Features
 
 - Toon diffuse shading with Umamusume-style shadow stepping
 - MatCap reflections
+- Dirt and Rainy Race FX
 - Depth-Based Rim lighting (Festivity)
 - Face shading (Chips)
 - Outlines (Festivity & BonnyAnimations)
